@@ -33,3 +33,10 @@ public class TestEmployeePredicates {
         System.out.println(filterEmployees(employees, isAgeMoreThan(35).negate()));
     }
 }
+/*
+List<TaxStrategy> taxStrategyList =
+                Arrays.asList(
+                        new PersonalTaxStrategy(),
+                        new PersonalTaxPenaltyStrategy(),
+                        new PersonalTaxRebateStrategy());
+*/
